@@ -1,0 +1,3 @@
+QGroupBox{
+    border: 1px solid;
+}

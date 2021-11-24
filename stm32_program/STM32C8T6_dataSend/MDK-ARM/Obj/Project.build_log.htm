@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xu fuqinag, jlu, LIC=WHY45-GQGM8-G7ER6-D2BCE-VHYEM-5S890
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.23
+Toolchain Path:  D:\program flies\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+D:\lenovo\desktop\STM32C8T6·¢ËÍÊý¾Ý\MDK-ARM\Project.uvprojx
+Project File Date:  04/16/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\program flies\keil5\ARM\ARMCC\Bin'
+Rebuild target 'LED'
+compiling stm32f10x_it.c...
+compiling main.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\main.c(40): warning:  #177-D: variable "jj"  was declared but never referenced
+      int jj=0;
+..\USER\main.c(41): warning:  #177-D: variable "j"  was declared but never referenced
+      int i=0,j=0;
+..\USER\main.c: 3 warnings, 0 errors
+compiling RC522.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\RC522.c: 1 warning, 0 errors
+compiling OLED.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\OLED.c(234): warning:  #174-D: expression has no effect
+      
+LED_CS(0); //?????,???????
+..\USER\OLED.c(246): warning:  #174-D: expression has no effect
+      
+LED_CS(1); //?????,???????
+..\USER\OLED.c(254): warning:  #174-D: expression has no effect
+  	
+LED_CS(0); //?????,???????
+..\USER\OLED.c(265): warning:  #174-D: expression has no effect
+      
+LED_CS(1); //?????,???????
+..\USER\OLED.c(273): warning:  #174-D: expression has no effect
+  	
+LED_CS(0); //?????,???????
+..\USER\OLED.c(286): warning:  #174-D: expression has no effect
+      
+LED_CS(1); //?????,???????
+..\USER\OLED.c(539): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if(hexcheck>=0&&hexcheck<=9)
+..\USER\OLED.c: 8 warnings, 0 errors
+compiling nrf24l01.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\nrf24l01.c(158): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\nrf24l01.c: 3 warnings, 0 errors
+compiling spi.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\spi.c(197): warning:  #940-D: missing return statement at end of non-void function "SPI2_ReadWriteByte" 
+  }
+..\USER\spi.c: 2 warnings, 0 errors
+compiling JLU.c...
+compiling misc.c...
+compiling uart.c...
+..\USER\nrf24l01.h(77): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\uart.c(107): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\uart.c: 2 warnings, 0 errors
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling core_cm3.c...
+compiling stm32f10x_wwdg.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_hd.s...
+linking...
+Program Size: Code=2196 RO-data=336 RW-data=20 ZI-data=1028  
+FromELF: creating hex file...
+After Build - User command #1: D:\program flies\keil5\ARM\ARMCC\bin\fromelf.exe --bin --output ./Obj/Project.bin ./Obj/Project.axf
+".\Obj\Project.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LED
+  D:\program flies\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
